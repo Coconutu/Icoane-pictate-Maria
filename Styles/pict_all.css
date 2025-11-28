@@ -136,4 +136,21 @@ footer {
     height: 18rem;
   }
 
+  .logo {
+    display: block;
+    float: center;
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .descriere {
+    font-family: "Arhaic Romanesc", sans-serif;
+    font-size: 1rem;
+    color: #0f5518c0;
+    text-align: center;
+    margin-bottom: 0.1rem;
+  }
+
+
 }
