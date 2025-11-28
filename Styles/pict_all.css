@@ -119,14 +119,14 @@ footer {
 
   .navigator a {
     font-family: "Arhaic Romanesc", sans-serif;
-    font-size: 0.5 rem;
+    font-size: 1rem;
     color: rgb(8, 18, 214);
   }
 
   .navigator a:hover {
     cursor: pointer;
     color: red;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .icoana_img {
