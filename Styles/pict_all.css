@@ -119,7 +119,7 @@ footer {
 
   .navigator a {
     font-family: "Arhaic Romanesc", sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgb(8, 18, 214);
   }
 
@@ -132,15 +132,15 @@ footer {
   .icoana_img {
     border-radius: 5px;
     border: 5px solid black;
-    width: 18rem;
-    height: 23rem;
+    width: 20rem;
+    height: 25rem;
   }
 
   .logo {
     display: block;
     float: center;
-    width: 2rem;
-    height: 2rem;
+    width: 6rem;
+    height: 6rem;
     padding-right: 0.5rem;
   }
 
