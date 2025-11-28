@@ -113,27 +113,27 @@ footer {
 @media (max-width:768px) {
   .galerie {
     grid-template-columns: repeat(1, minmax(100px, 1fr));
-    padding-top: 5rem;
-    margin: 2rem;
+    padding-top: 2rem;
+    margin: 1rem;
   }
 
   .navigator a {
     font-family: "Arhaic Romanesc", sans-serif;
-    font-size: 1rem;
+    font-size: 0.5 rem;
     color: rgb(8, 18, 214);
   }
 
   .navigator a:hover {
     cursor: pointer;
     color: red;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .icoana_img {
     border-radius: 5px;
     border: 5px solid black;
-    width: 15rem;
-    height: 18rem;
+    width: 18rem;
+    height: 23rem;
   }
 
   .logo {
@@ -141,7 +141,7 @@ footer {
     float: center;
     width: 2rem;
     height: 2rem;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
   }
 
   .descriere {
