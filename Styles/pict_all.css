@@ -1,0 +1,101 @@
+@import url("https://fonts.cdnfonts.com/css/arhaic-romanesc");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eccc1a;
+  color: #af8fd5;
+}
+
+.descriere {
+  font-family: "Arhaic Romanesc", sans-serif;
+  font-size: 24px;
+  color: #4b0082;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-icoana {
+  display: flex;
+  flex-direction: column;
+  /* pune h3 deasupra imaginii */
+  align-items: center;
+  /* centrează tot conținutul */
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.galerie {
+  padding-top: 5rem;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+.logo {
+  display: block;
+  float: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+.navigator {
+  background-color: #f9ebd4;
+  display: flex;
+  align-items: center;
+  /* aliniază vertical logo + meniul */
+  justify-content: center;
+  /* aliniază orizontal logo + meniul */
+  position: fixed;
+  /* fixează bara pe ecran */
+  top: 0;
+  /* o pune sus de tot */
+  left: 0;
+  width: 100%;
+  /* acoperă toată lățimea */
+  z-index: 1000;
+  /* o pune peste alte elemente */
+}
+
+.navigator ul {
+  display: flex;
+  /* pune elementele <li> pe orizontală */
+  gap: 20px;
+  /* spațiere între Acasă și Contact */
+  list-style: none;
+  /* elimină bulinele */
+  margin: 0;
+  padding: 0;
+}
+
+.navigator a {
+  font-family: "Arhaic Romanesc", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(8, 18, 214);
+}
+
+.navigator a:hover {
+  cursor: pointer;
+  color: red;
+  font-size: 1.6rem;
+}
+
+.icoana_img {
+  border-radius: 10px;
+  border: 5px solid black;
+  width: 600px;
+  height: 720px;
+}
+.adresa{
+    padding: 2em;
+    padding-top: 5em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
