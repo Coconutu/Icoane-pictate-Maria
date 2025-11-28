@@ -36,33 +36,6 @@ body {
   grid-template-columns: repeat(2, minmax(100px, 1fr));
 }
 
-@media (max-width:768px) {
-  .galerie {
-    grid-template-columns: repeat(1, minmax(100px, 1fr));
-    padding-top: 5rem;
-    margin: 2rem;
-  }
-
-  .navigator a {
-    font-family: "Arhaic Romanesc", sans-serif;
-    font-size: 1rem;
-    color: rgb(8, 18, 214);
-  }
-
-  .navigator a:hover {
-    cursor: pointer;
-    color: red;
-    font-size: 1.2rem;
-  }
-
-  .icoana_img {
-    border-radius: 5px;
-    border: 5px solid black;
-    width: 15rem;
-    height: 18rem;
-  }
-
-}
 
 .logo {
   display: block;
@@ -135,4 +108,32 @@ footer {
   color: #f6da0a;
   position: fixed;
   bottom: 0;
+}
+
+@media (max-width:768px) {
+  .galerie {
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    padding-top: 5rem;
+    margin: 2rem;
+  }
+
+  .navigator a {
+    font-family: "Arhaic Romanesc", sans-serif;
+    font-size: 1rem;
+    color: rgb(8, 18, 214);
+  }
+
+  .navigator a:hover {
+    cursor: pointer;
+    color: red;
+    font-size: 1.2rem;
+  }
+
+  .icoana_img {
+    border-radius: 5px;
+    border: 5px solid black;
+    width: 15rem;
+    height: 18rem;
+  }
+
 }
