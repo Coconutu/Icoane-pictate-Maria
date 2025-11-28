@@ -12,33 +12,6 @@ body {
     color: #af8fd5;
 }
 
-.descriere {
-    font-family: 'Arhaic Romanesc', sans-serif;
-    font-size: 24px;
-    color: #4b0082;
-    text-align: center;
-    margin-bottom: 10px;
-
-}
-
-.container-icoana {
-    display: flex;
-    flex-direction: column;
-    /* pune h3 deasupra imaginii */
-    align-items: center;
-    /* centrează tot conținutul */
-
-    border-radius: 10px;
-}
-
-.galerie {
-    padding-top: 5rem;
-    margin: 2rem;
-    
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-   
-}
 
 .logo {
     display: block;
@@ -80,8 +53,11 @@ body {
     font-size: 18px;
     color: black;             /* sau ce culoare dorești */
 }
-.icoana_img{
-    border-radius: 10px;
-    border: 5px solid black;
-   
+.adresa{
+    padding: 2em;
+    padding-top: 5em;
+    font-family::'Courier New', Courier, monospace
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
