@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #eece14;
+  background-color: #ffd900;
   color: #352cde;
   font-size: 1.2rem;
 }
@@ -176,11 +176,4 @@ footer {
     align-items: center;      /* centru orizontal */
     height: 100vh;            /* întreg ecranul */
     text-align: center;
-}
-
-/* Imaginea */
-.poza-zilei {
-    max-width: 90%;           /* nu depășește ecranul */
-    max-height: 60vh;         /* se încadrează în înălțimea ecranului */
-    object-fit: contain;
 }
