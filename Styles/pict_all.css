@@ -152,19 +152,35 @@ footer {
     text-align: center;
     margin-bottom: 0.1rem;
   }
+
   .navigator ul {
-  display: flex;
-  /* pune elementele <li> pe orizontală */
-  gap: 1rem;
-  /* spațiere între Acasă și Contact */
-  list-style: none;
-  /* elimină bulinele */
-  margin: 0;
-  padding: 0;
+    display: flex;
+    /* pune elementele <li> pe orizontală */
+    gap: 1rem;
+    /* spațiere între Acasă și Contact */
+    list-style: none;
+    /* elimină bulinele */
+    margin: 0;
+    padding: 0;
+  }
+ #hdurl {
+    max-width: 100%;
+    max-height: 55vh;    /* nu trece peste ecran */
+    object-fit: contain; /* să nu se deformeze */
+    border-radius: 12px;
+} 
+.container-astronomy {
+    display: flex;
+    flex-direction: column;   /* text sus, imagine jos, etc */
+    justify-content: center;  /* centru vertical */
+    align-items: center;      /* centru orizontal */
+    height: 100vh;            /* întreg ecranul */
+    text-align: center;
 }
 
-
-#explanation{
-    font-size: xx-large;
-    background-color: #181b05;
+/* Imaginea */
+.poza-zilei {
+    max-width: 90%;           /* nu depășește ecranul */
+    max-height: 60vh;         /* se încadrează în înălțimea ecranului */
+    object-fit: contain;
 }
