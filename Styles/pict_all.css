@@ -8,7 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #eece14;
-  color: #2fde2c;
+  color: #352cde;
+  font-size: 1.2rem;
 }
 
 .descriere {
@@ -163,4 +164,7 @@ footer {
 }
 
 
+#explanation{
+    font-size: xx-large;
+    background-color: #181b05;
 }
