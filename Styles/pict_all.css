@@ -136,7 +136,7 @@ footer {
     width: 20rem;
     height: 25rem;
   }
-}
+
 
   .logo {
     display: block;
@@ -163,6 +163,7 @@ footer {
     /* elimină bulinele */
     margin: 0;
     padding: 0;
+  }
   }
  #hdurl {
     max-width: 100%;
