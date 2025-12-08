@@ -157,7 +157,7 @@ footer {
   .navigator ul {
     display: flex;
     /* pune elementele <li> pe orizontală */
-    gap: 1rem;
+    gap: 10px;
     /* spațiere între Acasă și Contact */
     list-style: none;
     /* elimină bulinele */
