@@ -67,7 +67,7 @@ body {
 .navigator ul {
   display: flex;
   /* pune elementele <li> pe orizontală */
-  gap: 2rem;
+  gap: 1rem;
   /* spațiere între Acasă și Contact */
   list-style: none;
   /* elimină bulinele */
