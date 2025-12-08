@@ -85,7 +85,7 @@ body {
 .navigator a:hover {
   cursor: pointer;
   color: red;
-  font-size: 1.6rem;
+
 }
 
 .icoana_img {
@@ -127,7 +127,7 @@ footer {
   .navigator a:hover {
     cursor: pointer;
     color: red;
-    font-size: 1rem;
+   
   }
 
   .icoana_img {
