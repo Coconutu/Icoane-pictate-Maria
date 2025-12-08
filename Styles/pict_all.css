@@ -141,8 +141,8 @@ footer {
   .logo {
     display: block;
     float: center;
-    width: 6rem;
-    height: 4rem;
+    width: 1rem;
+    height: 1rem;
     padding-right: 0.5rem;
   }
 
@@ -164,18 +164,26 @@ footer {
     margin: 0;
     padding: 0;
   }
-  }
- #hdurl {
-    max-width: 100%;
-    max-height: 55vh;    /* nu trece peste ecran */
-    object-fit: contain; /* să nu se deformeze */
-    border-radius: 12px;
-} 
+}
+
+#hdurl {
+  max-width: 100%;
+  max-height: 55vh;
+  /* nu trece peste ecran */
+  object-fit: contain;
+  /* să nu se deformeze */
+  border-radius: 12px;
+}
+
 .container-astronomy {
-    display: flex;
-    flex-direction: column;   /* text sus, imagine jos, etc */
-    justify-content: center;  /* centru vertical */
-    align-items: center;      /* centru orizontal */
-    height: 100vh;            /* întreg ecranul */
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* text sus, imagine jos, etc */
+  justify-content: center;
+  /* centru vertical */
+  align-items: center;
+  /* centru orizontal */
+  height: 100vh;
+  /* întreg ecranul */
+  text-align: center;
 }
