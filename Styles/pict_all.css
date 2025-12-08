@@ -1,21 +1,18 @@
 @import url("https://fonts.cdnfonts.com/css/arhaic-romanesc");
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffd900;
+  background-color: hsla(51, 98%, 51%, 0.981);
   color: #352cde;
   font-size: 1.2rem;
 }
 
 .descriere {
   font-family: "Arhaic Romanesc", sans-serif;
-  font-size: 2rem;
-  color: #0f5518c0;
+  font-size: 1.7rem;
+  color: #341bd9c0;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -26,12 +23,12 @@ body {
   /* pune h3 deasupra imaginii */
   align-items: center;
   /* centrează tot conținutul */
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 1rem;
 }
 
 .galerie {
-  padding-top: 5rem;
+  padding-top: 3rem;
   margin: 2rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, 1fr));
@@ -54,12 +51,14 @@ body {
   justify-content: center;
   /* aliniază orizontal logo + meniul */
   position: fixed;
+  border-radius: 20px;
+  margin: 1px;
   /* fixează bara pe ecran */
   top: 0;
   /* o pune sus de tot */
-  left: 0;
-  width: 100%;
-  /* acoperă toată lățimea */
+  /* left: 10px; */
+  width: 99%;
+   /* acoperă toată lățimea */
   z-index: 1000;
   /* o pune peste alte elemente */
 }
@@ -72,7 +71,7 @@ body {
   list-style: none;
   /* elimină bulinele */
   margin: 0;
-  padding: 10px;
+  padding: 2px;
 }
 
 .navigator a {
@@ -89,10 +88,10 @@ body {
 }
 
 .icoana_img {
-  border-radius: 10px;
+  border-radius: 20px;
   border: 5px solid black;
-  width: 32rem;
-  height: 42rem;
+  width: 28rem;
+  height: 100%;
 }
 
 .adresa {
@@ -134,7 +133,7 @@ footer {
     border-radius: 5px;
     border: 5px solid black;
     width: 20rem;
-    height: 26rem;
+    height: 100%;
   }
 
 
