@@ -67,12 +67,12 @@ body {
 .navigator ul {
   display: flex;
   /* pune elementele <li> pe orizontală */
-  gap: 1rem;
+  gap: 2rem;
   /* spațiere între Acasă și Contact */
   list-style: none;
   /* elimină bulinele */
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .navigator a {
@@ -157,12 +157,12 @@ footer {
   .navigator ul {
     display: flex;
     /* pune elementele <li> pe orizontală */
-    gap: 10px;
+    gap: 20px;
     /* spațiere între Acasă și Contact */
     list-style: none;
     /* elimină bulinele */
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
 }
 
